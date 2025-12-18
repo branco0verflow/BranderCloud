@@ -16,14 +16,19 @@ export default function Home() {
         <meta name="description" content="Creamos la web que tu negocio necesita en Colonia del Sacramento, Uruguay" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon16.png" />
+
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
       </Head>
 
 
 
       <div className="min-h-screen flex flex-col w-full bg-black bg-cyan-spotlight">
         <main className="flex-grow container mx-auto py-4">
-          
-            <HeroParallaxDemo />
+
+          <HeroParallaxDemo />
 
 
           <section className="relative">
