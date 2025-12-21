@@ -96,7 +96,7 @@ export default function ContactForm({ isEnglish = false }) {
           {/* Teléfono y email */}
           <div className="grid md:grid-cols-2 gap-6">
             <Input
-              label={isEnglish ? "Phone (optional)" : "Teléfono (opcional)"}
+              label={isEnglish ? "Phone" : "Teléfono"}
               name="phone_id"
               value={formData.phone_id}
               onChange={handleChange}

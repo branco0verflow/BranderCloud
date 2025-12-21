@@ -48,9 +48,17 @@ export default function Home() {
 
         <Testimonial1 />
 
-        <section id='form-idea' className="mb-5 pb-2 sm:h-[120vh]">
-          <Consultas />
-        </section>
+        <section
+  id="form-idea"
+  className="
+    mb-5 pb-10
+    min-h-[100dvh]
+    sm:min-h-fit
+  "
+>
+  <Consultas />
+</section>
+
 
         <Footer />
       </div>
