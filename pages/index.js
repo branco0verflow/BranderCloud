@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Brander Cloud — Soluciones Web</title>
-        <meta name="description" content="Creamos la web que tu negocio necesita en Colonia del Sacramento, Uruguay" />
+        <meta name="description" content="Creamos la web que tu negocio necesita, espacializado en reservas, automatización de procesos y gestión contable de negocios. Colonia, Uruguay" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon32.png" />

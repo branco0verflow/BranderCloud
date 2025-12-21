@@ -34,7 +34,7 @@ export default function QueOfrecemos() {
         {/* Botones */}
         <div className="flex flex-col sm:flex-row gap-5 justify-center pt-6">
           <Link
-            href="https://wa.me/59891307261?text=Hola%21%20Quisiera%20averiguar%20sobre%20un%20presupuesto%20para%20una%20idea%20de%20sitio%20web%20y%20posibles%20funcionalidades%20adicionales."
+            href="https://wa.me/59898068027?text=Hola%21%20Quisiera%20hacer%20una%20consulta%20inicial%20sobre%20un%20proyecto%20y%20sus%20posibilidades."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-xl px-8 py-4 bg-emerald-500 text-white
@@ -49,7 +49,7 @@ export default function QueOfrecemos() {
             className="px-8 py-3 rounded-xl border border-white/30 text-white text-lg font-medium 
   hover:bg-white/10 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)]"
           >
-            Quiero contar mi idea
+            Conversemos sobre tu proyecto
           </Link>
         </div>
       </motion.div>

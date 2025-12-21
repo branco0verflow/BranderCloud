@@ -90,7 +90,7 @@ const Header = () => {
 <div className="mt-14 flex flex-col sm:flex-row gap-5">
   {/* WhatsApp — Primary */}
   <a
-    href="https://wa.me/59891307261?text=Hola%21%20Quisiera%20averiguar%20sobre%20un%20presupuesto%20para%20una%20idea%20de%20sitio%20web%20y%20posibles%20funcionalidades%20adicionales."
+    href="https://wa.me/59898068027?text=Hola%21%20Quisiera%20hacer%20una%20consulta%20inicial%20sobre%20un%20proyecto%20y%20sus%20posibilidades."
     target="_blank"
     rel="noopener noreferrer"
     className="
@@ -146,7 +146,7 @@ const Header = () => {
     "
   >
     <Sparkles className="w-[18px] h-[18px] opacity-80 group-hover:opacity-100 transition" />
-    Quiero contar mi idea
+    Conversemos sobre tu proyecto
   </Link>
 </div>
 
