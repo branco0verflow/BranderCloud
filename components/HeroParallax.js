@@ -62,7 +62,7 @@ export const HeroParallax = ({
 
 const Header = () => {
 
-  
+
 
   return (
     <>
@@ -73,61 +73,59 @@ const Header = () => {
           px-6 py-20 md:py-32
         "
       >
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-neutral-900 dark:text-white">
-          Brander Cloud
-        </h1>
+        <img src="/logo.png" alt="Brander Cloud" className="h-24 sm:h-32 md:h-44 w-auto" />
 
-        <h2 className="mt-4 text-emerald-500 text-xl sm:text-3xl md:text-5xl font-bold">
+        <h2 className="mt-1 text-emerald-300 text-xl sm:text-3xl md:text-5xl font-semibold font-light tracking-wide font-oswald">
           Transformamos tus ideas en soluciones digitales.
         </h2>
 
-        <p className="mt-6 max-w-2xl text-sm sm:text-base md:text-xl text-neutral-700 dark:text-neutral-200">
-          Creamos sitios web y sistemas de reservas diseñados para tu negocio.
+        <p className="mt-6 max-w-2xl text-sm sm:text-base md:text-xl text-neutral-700 dark:text-neutral-200 font-light tracking-wider font-oswald">
+          Creamos sitios web profesionales para negocios que quieren atraer más clientes.
         </p>
 
-        
+
         {/* CTA */}
-<div className="mt-14 flex flex-col sm:flex-row gap-5">
-  {/* WhatsApp — Primary */}
-  <a
-    href="https://wa.me/59898068027?text=Hola%21%20Quisiera%20hacer%20una%20consulta%20inicial%20sobre%20un%20proyecto%20y%20sus%20posibilidades."
-    target="_blank"
-    rel="noopener noreferrer"
-    className="
+        <div className="mt-14 flex flex-col sm:flex-row gap-5">
+          {/* WhatsApp — Primary */}
+          <a
+            href="https://wa.me/59898068027?text=Hola%21%20Quisiera%20hacer%20una%20consulta%20inicial%20sobre%20un%20proyecto%20y%20sus%20posibilidades."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
       group relative inline-flex items-center justify-center gap-3
       rounded-2xl px-10 py-[18px]
 
-      bg-emerald-500
+      bg-emerald-600
       text-white text-base sm:text-lg font-semibold tracking-tight
 
       shadow-[0_12px_30px_rgba(16,185,129,0.35)]
       transition-all duration-[450ms] ease-out
 
-      hover:bg-emerald-600
+      hover:bg-emerald-700
       hover:shadow-[0_20px_45px_rgba(16,185,129,0.45)]
       hover:-translate-y-[1px]
 
       active:translate-y-0 active:shadow-[0_10px_25px_rgba(16,185,129,0.3)]
     "
-  >
-    <MessageCircle className="w-[18px] h-[18px]" />
-    Contactar por WhatsApp
+          >
+            <MessageCircle className="w-[18px] h-[18px]" />
+            Contactar por WhatsApp
 
-    {/* subtle highlight */}
-    <span
-      className="
+            {/* subtle highlight */}
+            <span
+              className="
         pointer-events-none absolute inset-0 rounded-2xl
         opacity-0 group-hover:opacity-100
         transition-opacity duration-[450ms]
         bg-[linear-gradient(to_bottom,rgba(255,255,255,0.18),transparent_60%)]
       "
-    />
-  </a>
+            />
+          </a>
 
-  {/* Secondary — Editorial / Glass */}
-  <Link
-    href="#form-idea"
-    className="
+          {/* Secondary — Editorial / Glass */}
+          <Link
+            href="#form-idea"
+            className="
       group relative inline-flex items-center justify-center gap-3
       rounded-2xl px-10 py-[18px]
 
@@ -144,11 +142,11 @@ const Header = () => {
 
       active:translate-y-0
     "
-  >
-    <Sparkles className="w-[18px] h-[18px] opacity-80 group-hover:opacity-100 transition" />
-    Conversemos sobre tu proyecto
-  </Link>
-</div>
+          >
+            <Sparkles className="w-[18px] h-[18px] opacity-80 group-hover:opacity-100 transition" />
+            Conversemos sobre tu proyecto
+          </Link>
+        </div>
 
 
 

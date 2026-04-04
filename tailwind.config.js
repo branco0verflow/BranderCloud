@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        oswald: ['Oswald', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
